@@ -1,7 +1,7 @@
 # CCS4354 – OGBN-Arxiv Graph Neural Network Coursework
-Group members- 23UG1-0078
-               23UG1-0118
-               23UG1-0119
+Group members- 23UG1-0078 ,
+               23UG1-0118 ,
+               23UG1-0119 ,
                CIT-23-02-0090
 
 ## Project Overview
