@@ -1,53 +1,80 @@
 # CCS4354 – OGBN-Arxiv Graph Neural Network Coursework
-Group members- 23UG1-0078 ,
-               23UG1-0118 ,
-               23UG1-0119 ,
-               CIT-23-02-0090
 
 ## Project Overview
-
 This project implements a complete Graph Neural Network workflow for node classification on the OGBN-Arxiv citation network.
 
-Two GNN architectures were developed and compared:
+Two GNN architectures were implemented and compared:
 
 - Graph Convolutional Network (GCN)
 - GraphSAGE
 
-The project includes tensor operations, graph analysis, preprocessing, model development, training, hyperparameter optimization, evaluation, explainability analysis, and a Streamlit dashboard.
-
 ## Dataset
-
-OGBN-Arxiv
-
 - Nodes: 169,343
 - Directed Edges: 1,166,243
 - Node Features: 128
 - Classes: 40
 - Task: Multi-class node classification
 
-## Models
+## Main Components
+- Tensor fundamentals
+- Graph representation and analysis
+- Data preprocessing and normalization
+- GCN model development
+- GraphSAGE model development
+- Training and hyperparameter optimization
+- Model evaluation
+- PCA embedding visualization
+- Neighborhood influence analysis
+- Edge ablation analysis
+- Streamlit Graph Intelligence Dashboard
 
-### Graph Convolutional Network
-GCN uses graph convolution to combine node features with information from neighbouring citation nodes.
-
-### GraphSAGE
-GraphSAGE uses mean neighbourhood aggregation to learn representations from the target node and its neighbouring papers.
+## Technologies
+- Python
+- PyTorch
+- PyTorch Geometric
+- NetworkX
+- Scikit-learn
+- Pandas
+- Matplotlib
+- Streamlit
 
 ## Project Structure
+- `01_Source_Code` – Python source code
+- `02_Jupyter_Notebook` – Final Jupyter Notebook
+- `03_Trained_Models` – Saved GCN and GraphSAGE models
+- `04_Technical_Report` – Technical report PDF
+- `05_Streamlit_Dashboard` – Streamlit dashboard files
+- `06_Presentation` – Final presentation slides
 
-```text
-notebook/
-    Final Jupyter notebook
+## Models
+### GCN
+Graph Convolutional Network using graph convolution to combine node features with citation-neighbourhood information.
 
-models/
-    Trained GCN and GraphSAGE models
-    Model configuration
+### GraphSAGE
+GraphSAGE using mean neighbourhood aggregation to learn node representations.
 
-dashboard/
-    Streamlit application and exported result files
+## Explainability
+Three explainability approaches were included:
+- PCA node embedding visualization
+- Neighborhood influence analysis
+- Edge ablation analysis
 
-report/
-    Technical report
+## Dashboard
+The Streamlit dashboard displays:
+- Graph statistics
+- GCN and GraphSAGE performance
+- Node-level classification results
+- PCA node embeddings
+- Sample citation subgraph
+- Edge-ablation visualization
 
-presentation/
-    Presentation slides
+## Module
+**Module Code:** CCS4354  
+**Module Name:** Tensors and Graphs  
+**Dataset:** OGBN-Arxiv
+
+## Group Members
+1. sithmi umeshika – 23UG1-0078
+2. Samoshi rupasingha – 23UG1-0118
+3. Gihan chathuranga – 23UG1-0119
+4. Dewmi Abeykoon – CIT-23-02-0090
