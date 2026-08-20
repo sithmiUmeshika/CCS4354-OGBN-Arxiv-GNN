@@ -77,4 +77,4 @@ The Streamlit dashboard displays:
 1. sithmi umeshika – 23UG1-0078
 2. Samoshi rupasingha – 23UG1-0118
 3. Gihan chathuranga – 23UG1-0119
-4. Dewmi Abeykoon – CIT-23-02-0090
+4. Pramodya Dewmi – CIT-23-02-0090
